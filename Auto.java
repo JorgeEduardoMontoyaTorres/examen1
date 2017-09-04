@@ -46,7 +46,7 @@ public class Auto
             m = minutos;
     }
     
-    public void PideDatosDSalida(int horas, int minutos)
+    public void PideDatosSalida(int horas, int minutos)
     {
         if(horas <= 23)
             h2 = horas;

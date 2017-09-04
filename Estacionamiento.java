@@ -21,6 +21,7 @@ import java.util.ArrayList;
 
 public class Estacionamiento
 { 
+    ArrayList<Auto> autos;
     private int costo;
     private int totalcoches;
     
@@ -30,13 +31,16 @@ public class Estacionamiento
         totalcoches = 150;
     }
     
-    public Auto registraAuto()
-    {
-        Array.List<Auto> auto.;
-    }
+    //public Auto registraAuto(ArrayList<Auto> autos)
+    //{
+         //autos.add(); 
+    //}
     
-    private calculaCosto()
+    private int calculaCosto()
     {
+        //costo = dimeHoraSalida() - dimeHoraEntrada();
         
+        
+        return costo;
     }
 }
